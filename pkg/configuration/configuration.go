@@ -81,7 +81,7 @@ const (
 
 	varAuthClientConfigRaw     = "auth_client.config.raw"
 	DefaultAuthClientConfigRaw = `{
-	  "realm": "toolchain-public",
+	  "realm": "local",
 	  "auth-server-url": "http://129.40.58.177:8082/auth",
 	  "ssl-required": "none",
 	  "resource": "crt",
@@ -95,7 +95,7 @@ const (
 
 	varAuthClientPublicKeysURL = "auth_client.public_keys_url"
 	// DefaultAuthClientPublicKeysURL is the default log level used in your service.
-	DefaultAuthClientPublicKeysURL = "http://129.40.58.177:8082/auth/realms/toolchain-public/protocol/openid-connect/certs"
+	DefaultAuthClientPublicKeysURL = "http://129.40.58.177:8082/auth/realms/local/protocol/openid-connect/certs"
 
 	varNamespace = "namespace"
 	// DefaultNamespace is the default k8s namespace to use.
